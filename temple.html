@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Official Website</title>
+</head>
+<style>
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: rgb(255, 165, 0, 0.8);
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    background-color: maroon;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    background: rgb(128, 45, 24) no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+}
+
+/* Section Styling */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    color: maroon;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* About Section */
+.about-section {
+    background-color: #fef3d7;
+    border-top: 5px solid saffron;
+}
+
+/* Rituals Section */
+.rituals-section table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgb(186, 179, 106);
+    border: 1px solid #ddd;
+}
+
+.rituals-section th, .rituals-section td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.rituals-section th {
+    background-color: maroon;
+    color: white;
+}
+
+/* Gallery Section */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-grid img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.image-grid img:hover {
+    transform: scale(1.1);
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #fdf2e9;
+}
+
+/* Footer */
+.footer {
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+</style>
+<body>
+    <!-- Header and Hero Section -->
+    <header class="hero">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#rituals">Rituals</a></li>
+                <li><a href="#Special Rituals">Special Rituals</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Welcome to Chennakesava Swamy Temple</h1>
+            <p>A sacred place of devotion and tranquility</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About the Temple</h2>
+        <p>The Chennakesava Swamy Temple in Markapur is a historical and architectural marvel from the Vijayanagara Empire, constructed between 1405 and 1459 AD. Dedicated to Lord Vishnu, revered as Chennakesava, it is situated on the banks of the Gundlakamma River.
+
+The temple is celebrated for its intricate carvings, massive 135-foot Rajagopuram (tower), and musical pillars in the Kalyana Mandapam. A unique phenomenon occurs annually between December and January when the sun's rays at dawn align perfectly to illuminate the deity's feet.
+
+Legends state that the temple is named after the demon Kesi's defeat by Lord Vishnu, who is accompanied by Goddess Lakshmi here. It remains a significant spiritual hub, especially during festivals like Ekadasi and Sankranti, drawing thousands of devotees.</p>
+    </section>
+
+    <!-- Rituals Section -->
+    <section id="rituals" class="rituals-section">
+        <h2>Daily Rituals</h2>
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Ritual</th>
+            </tr>
+            <tr>
+                <td>6:00 AM</td>
+                <td>Suprabhata Seva(Morning Awakening)</td>
+            </tr>
+            <tr>
+                <td>6:30 AM-7:30 AM</td>
+                <td>Morning Aarati and Abhishekam</td>
+            </tr>
+            <tr>
+                <td>7:30 AM-12:30 PM</td>
+                <td>Darshan (Open for Devotees)</td>
+            </tr>
+            <tr>
+                <td>12:00 PM-12:30 PM</td>
+                <td>Madhyanha Aarati (Noon Worship)</td>
+            </tr>
+            <tr>
+                <td>4:30 PM-8:00 PM</td>
+                <td>Evening Darshan and Sevas</td>
+            </tr>
+            <tr>
+                <td>6:30 PM-7:00 PM</td>
+                <td>Sandhya Aarati (Evening Worship)</td>
+            </tr>
+            <tr>
+                <td>8:00 PM</td>
+                <td>Ekanta Seva (Night Ritual)</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Special Rituals Section -->
+    <section id="Special Rituals">
+        <h2>Special Rituals(Festivals or Unique Occasions)</h2>
+        <h4>Sunlight Ritual (December 16 – January 14)</h4>
+        <b>Time:</b> 6:30 AM – 7:00 AM<br>
+        <b>Description:</b> During this period, the first rays of the sun directly fall on the deity’s feet in the sanctum.<br>
+
+        <h4>Kalyanotsavam</h4>
+        <b>Time:</b> Typically between 10:00 AM – 1:00 PM on special festival days.<br>
+        <b>Description:</b> A symbolic wedding of Lord Chennakesava and Goddess Lakshmi.<br>
+
+        <h4>Chariot Procession</h4>
+        <b>Time:</b> Evening during festivals (e.g., Ekadasi, Sankranti).<br>
+        <b>Description:</b> The deity’s Utsav Murti (processional idol) is paraded through the streets.<br>
+
+        <h4>Abhishekam for Devotees</h4>
+        <b>Time:</b> Usually between 6:30 AM – 9:00 AM (booking required).<br>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <h2>Gallery</h2>
+        <div class="image-grid">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.n9a52h5M18i05cWrX0P82AHaIz&w=474&h=474&c=7" width="300" height="300" alt="Temple Image 1">
+            <img src="https://gotirupati.com/wp-content/uploads/2016/05/Chennakesava-Temple-Markapur7-Copy-1.jpg" width="300" height="300" alt="Temple Image 2">
+            <img src="https://jswtv.tv/wp-content/uploads/2023/01/Sri-Lakshmi-Chenna-Kesava-Swami-temple-Markapuram-Radosthavam-pics-2.jpg" width="300" height="300" alt="Temple Image 3">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Address: Chennakesava Swamy Temple, Markapuram</p>
+        <center>Prakasam District, Andhra Pradesh</center>
+        <center>523316, India</center>
+        <p>Phone: +91-94948-33729</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 [Chennakesava Swamy Temple]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
